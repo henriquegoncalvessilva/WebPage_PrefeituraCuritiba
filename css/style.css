@@ -794,6 +794,7 @@ input[type="text"] {
 
   .footer-container .links-footer-container .menu-footer {
     display: flex;
+    gap: 88px;
   }
   .header {
     flex-direction: row-reverse;
@@ -852,5 +853,17 @@ input[type="text"] {
     .menu-footer
     .menu-footer-container {
     border: none;
+  }
+
+  .footer-container .links-footer-container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: flex-start;
+    gap: 120px;
+  }
+  .footer-container .links-footer-container .menu-footer .menu-footer-container .menu-footer-item{
+    text-align: left;
   }
 }
